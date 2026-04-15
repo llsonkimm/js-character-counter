@@ -9,6 +9,7 @@
 :root {
   --light-grey: #efefef;
   --white: #ffffff;
+  --red: #da0808;
   --very-dark-blue: #020218;
   --light-green: #022b04;
    --light-yellow: #d8c70c;
@@ -59,6 +60,10 @@ p{
     color: var(--light-green);
     width: 30%;
     margin:var(--margin);
-    /* padding: var(--padding); */
+
     border-radius: 5px;
+}
+
+.char-warn{
+    color: var(--red);
 }
